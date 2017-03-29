@@ -1,7 +1,7 @@
-# [ISC Site Framework & Tree]
+# UCSD Intersustainability Student Council Site & Tree
 
-This project aims to redesign & rebrand the UCSD ISC website, experimenting with skrollr implementation for parallax scrolling.
+This project aims to redesign & rebrand the UCSD ISC website, implementing skrollr.js for parallax scrolling as well as integration of an events planner and calendar created by ------
 
-## other info
+## Other info
 
 Coming soon.
