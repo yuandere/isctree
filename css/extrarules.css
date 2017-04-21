@@ -5,11 +5,11 @@
     margin-top: -350px;
     top: 50%;
 }
-.parallax-layer{
+/*.parallax-layer{
     position: absolute;
     height: 700px;
     background-repeat: no-repeat;
-}
+}*/
 #layer10{
     background: url(../images/layer10.png);
     width: 1920px;
