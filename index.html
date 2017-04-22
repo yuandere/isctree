@@ -11,13 +11,50 @@
 
     <title>UCSD Inter-Sustainability Council</title>
 
+    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/extrarules.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <!-- <link href="css/main.css" rel="stylesheet" -->
+
     <style>
-    body {
-        padding-top: 70px;
+      body {
+            padding-top: 70px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
+
+    
+   
+  
+         background-image: url("images/l1.png");
+         background-repeat: no-repeat;
+         background-position: center-top;
+            /*UNCOMMENT TO HAVE BG responsive background-size: 100%;*/
+      }
+
+      .lay24 {
+         background-image: url("images/l2.png"), url("images/l3.png"),
+            url("images/l4.png");
+         background-repeat: no-repeat;
+         width: 1920px;
+         height: 1080px;
+         position: absolute;
+      }
+        .lay5{
+        background-image: url("images/l5.png");
+        background-repeat: no-repeat;
+        width :1920px;
+        height:1080px;
+        position: absolute;
+}
+      .trees {
+         background-image: url("images/l9.png"), url("images/l10.png");
+         background-size: contain;
+         background-repeat: no-repeat;
+         width: 1920px;
+         height: 1080px;
+         position: absolute;
+/*To make it resizable based on window size         padding-top: 56.25%; /*image height / image width * container-width*/ 
+      }
+
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -62,50 +99,59 @@
                     <li>
                         <a href="#">Contact</a>
                     </li>
-
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+
+            <!-- /.navbar-collapse --> 
         </div>
         <!-- /.container -->
     </nav>
-    <!-- navbar ^^ -->
+
     <!-- Page Content -->
-    <div id="skrollr-body">
-        <div id="Scene">
-            <div id="layer10" class="parallax-layer"
-                data-0="background-position:0px 0px;"
-                data-5000="background-position:0px -5000px;">
-            </div>
-            <div id="layer9" class="parallax-layer"
-                data-0="background-position:0px 0px;"
-                data-5000="background-position:0px -1000px;">
-            </div>
-        </div>
+
+    <!-- TODO TEST THINGS OUT HERE -->
+    <div class="lay24">
+    </div>
+    <div class="lay5">
     </div>
 
-        
-        <!-- filler content
+    <div class=" trees row skrollable skrollable-between"
+            data-top-top="transform: translateY(20%);"
+            data--150p-top-top="transform: translateY(-50%);" style="transform:
+            translateY(-50%);">
+
+    </div>
+    <!-- End of test code -->
+
+
+    <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>A Bootstrap Starter Template</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!!</p>
+                <h1>Inter-Sustainability Council</h1>
+                <p class="lead">Start messing around with the skrollr animations
+                here</p>
                 <ul class="list-unstyled">
                     <li>Bootstrap v3.3.7</li>
                     <li>jQuery v1.11.1</li>
                 </ul>
             </div>
+     
         </div>
         <!-- /.row -->
 
+    </div>
     <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- skrollr -->
-    <script type="text/javascript" src="../js/skrollr.min.js"></script>
-    <script type="text/javascript">
-        skrollr.init();
+    <script src="js/skrollr.min.js"></script>
+    <script>
+        var s = skrollr.init();
     </script>
 
 </body>
