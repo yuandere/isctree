@@ -21,9 +21,6 @@
             padding-top: 70px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 
-    
-   
-  
          background-image: url("images/l1.png");
          background-repeat: no-repeat;
          background-position: center-top;
@@ -37,6 +34,13 @@
          width: 1920px;
          height: 1080px;
          position: absolute;
+      }
+      .lay56 {
+        background-image: url("images/l5.png"), url("images/l6.png");
+        background-repeat: no-repeat;
+        width: 1920px;
+        height: 1080px;
+        position: absolute;
       }
 
       .trees {
@@ -104,14 +108,14 @@
     <!-- Page Content -->
 
     <!-- TODO TEST THINGS OUT HERE -->
-    <div class="lay24">
+    <div class="lay24 row skrollable skrollable-between"
+        data-top-top="transform: translateY(20%);"
+        data--150p-top-top="transform: translateY(-50%);">
     </div>
 
-<div class=" trees row skrollable skrollable-between"
-            data-top-top="transform: translateY(20%);"
-            data--150p-top-top="transform: translateY(-50%);" style="transform:
-            translateY(-50%);">
-
+    <div class=" trees row skrollable skrollable-between"
+        data-top-top="transform: translateY(20%);"
+        data--150p-top-top="transform: translateY(-50%);" style="transform: translateY(-50%);">
     </div>
     <!-- End of test code -->
 
