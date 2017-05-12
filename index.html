@@ -49,6 +49,11 @@
          position: absolute;
 /*To make it resizable based on window size         padding-top: 56.25%; /*image height / image width * container-width*/ 
       }
+      .orgs-grid {
+         padding-top: 1000px;
+         padding-left: 100px;
+         padding-right: 100px;
+      }
 
     </style>
 
@@ -105,6 +110,7 @@
     <!-- Page Content -->
 
     <!-- TODO- slow down sunandbirds, move lay56 down -->
+    <!-- PARALLAX --> 
     <div class="sunandbirds skrollable skrollable-between"
         data-top-top="transform: translateY(50%);"
         data--150p-top-top="transform: translateY(-50%);" style="transform: translateY(-50%);">
@@ -117,8 +123,7 @@
         data-top-top="transform: translateY(20%);"
         data--150p-top-top="transform: translateY(-50%);">
     </div>
-    <!-- End of test code -->
-
+    <!-- End of Parallax code-->
 
     <div class="container">
         <div class="row">
@@ -137,6 +142,36 @@
 
     </div>
     <!-- /.container -->
+
+    <!-- GRID TODO try nesting things in one thing so that things can be one
+         after another-->
+    <div class="container">
+      <div class = "orgs-grid row">
+         <li class="col-md-2 col-sm-3 col-xs-6">
+            <a href="#"><img class="img-responsive image-2by1" src="images/orgs/Aquaholics Anonymous.png"/></a>
+         </li>
+         <li class="col-md-2 col-sm-3 col-xs-6">
+            <a href="#"><img class="img-responsive image-2by1" src="images/orgs/AS Environmental Justice Advocates.jpg"/></a>
+         </li>
+         <li class="col-md-2 col-sm-3 col-xs-6">
+            <a href="#"><img class="img-responsive image-2by1" src="images/orgs/Assocaition of Environmental Proffessionals"/></a>
+         </li>
+         <li class="col-md-2 col-sm-3 col-xs-6">
+            <a href="#"><img class="img-responsive image-2by1" src="images/orgs/CALPIRG.png"/></a>
+         </li>
+         <li class="col-md-2 col-sm-3 col-xs-6">
+            <a href="#"><img class="img-responsive image-2by1" src="images/orgs/Ecology, Behavior and Evolution.png"/></a>
+         </li>
+         <li class="col-md-2 col-sm-3 col-xs-6">
+            <a href="#"><img class="img-responsive image-2by1" src="images/orgs/Econauts.png"/></a>
+         </li>
+      </div>
+    </div>
+
+
+    <!-- END OF CONTAINER -->
+
+
 
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
