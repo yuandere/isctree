@@ -1,0 +1,32 @@
+<% include partials/header %>
+
+<div class="center">
+    <p id="calendarTitle">Events</p>
+</div>
+
+<aside>
+    <div id="eInfo">
+    </div>
+</aside>
+
+<div id="calendar-container">
+
+    <div class="calendar-heading">
+        <button class="glyphicon glyphicon-arrow-left" id="prevBtn"></button>
+        <span id="monthTitle" data-month="" data-year=""></span>
+        <button class="glyphicon glyphicon-arrow-right" id="nextBtn"></button>
+        <p id="year"></p>
+    </div>
+    <table id="calendar">
+        <tr>
+            <th>S</th>
+            <th>M</th>
+            <th>T</th>
+            <th>W</th>
+            <th>Th</th>
+            <th>F</th>
+            <th>Sa</th>
+        </tr>
+    </table>
+</div>
+<% include partials/footer %>

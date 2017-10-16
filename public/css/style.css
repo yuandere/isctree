@@ -1,0 +1,164 @@
+.center {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#calendarTitle {
+    font-size: 48px;
+    font-family: "Georgia";
+}
+
+#calendar-container {
+    width: 700px;
+    /*height: 900px;*/
+    margin-top: 50px;
+    margin-right: 3%; 
+    float: right;
+}
+
+.active {
+    background-color: #BF9F5F !important;
+}
+
+#prevBtn, #nextBtn {
+    margin-top: 6px;
+    border: none;        /*remove border for button*/
+    background: none;
+    outline: none;
+}
+
+#prevBtn {
+    margin-left: 220px;
+    float: left;
+}
+
+#nextBtn {
+    margin-right: 220px;
+    float: right;
+}
+
+button.glyphicon-arrow-left, 
+button.glyphicon-arrow-right {
+    font-size: 2em;
+}
+
+.calendar-heading {
+    text-align: center;
+}
+
+.active {
+    background-color: #BF9F5F !important;
+}
+
+#calendar {
+    margin: 0 auto;     /* center table horizontally */
+}
+
+#calendar th {
+    color: #3D9B45;
+    font-weight: 800;
+    text-align: center;
+}
+
+#calendar td {
+    width: 105px;
+    height: 105px;
+    vertical-align: top;
+    background-color: #E1D1B3;
+    border: 8px solid white;    /* white border for the gap between cells */
+}
+
+#calendar td .date {
+    color: #3D9B45;
+    font-weight: 800;
+    float: right;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+
+#calendar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+#calendar ul li {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+#year {
+    margin-top: -7px;
+    font-size: 10px;
+}
+
+
+#monthTitle, .eventTitle {
+    font-size: 32px;
+}
+
+#eInfo{
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-left: 4%;
+    margin-top: 50px;
+}
+
+#eInfo img {
+    margin-top: -40px;
+    margin-left: -23px;
+}
+
+.currentDay {
+    position: absolute;
+    margin-top: -20px;
+    left: -13px;
+    font-size: 15px;
+}
+
+.divider {
+    border: none;
+    height: 2px;
+    clear: right;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    /* Set the hr color */
+    color: #E1D1B3; /* old IE */
+    background-color: #E1D1B3; /* Modern Browsers */
+}
+
+.events {
+    position: relative;
+    margin-left: 40px;
+}
+
+.orgName {
+    margin-left: 7px;
+}
+
+.eventDate {
+    margin-top: 13px;
+}
+
+.description {
+    padding-left: 50px;
+    text-indent: -50px;
+    margin-bottom: -5px;
+    width: 500px;
+}
+
+.eventLink {
+    float: right;
+}
+
+.orgName, .eventDate, .eventLoc, .description, .eventLink {
+    font-size: 12px;
+}
+
+#errorMsg {
+    margin-top: 40%;
+    margin-left: 30%;
+    font-size: 20px;
+}

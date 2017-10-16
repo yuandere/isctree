@@ -1,2 +1,3 @@
 bower_components
 node_modules
+views/index.ejs.example
